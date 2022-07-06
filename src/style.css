@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans:wght@800&display=swap');
+
+@import 'components/navigation/culerStoreNavigation.css';
+@import 'components/utilityClasses/utility.css';
+@import 'components/productList/productList.css';
+
+/* @import 'components/cart/cart.css';
+
+@import 'components/authenticationPages/authenticationPages.css'; */
+
+* {
+    box-sizing: border-box;
+}
+
+/* ---------------------------HOME PAGE-------------------------------- */
+
+.overlay-image-container {
+    width: 90%;
+    margin: 2rem auto;
+    position: relative;
+}
+
+.overlay-banner-text {
+    position: absolute;
+    top: 1em;
+    left: 5em;
+    max-width: 20rem;
+    font-family: 'Open Sans', sans-serif;
+    z-index: 1;
+}
+
+.banner-img-description {
+    font-size: 3rem;
+    font-weight: 600;
+    color: var(--color-white);
+}
+
+.banner-cards {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    gap: 2rem;
+}
+
+.overlay-card {
+    height: fit-content;
+}
+
+.btn-navigate {
+    font-size: 2rem;
+    padding: 0.5rem;
+    border-radius: 50%;
+    cursor: pointer;
+    background-color: var(--color-light-gray);
+}
+
+.spacer-div {
+    height: 0.5rem;
+    max-width: 30rem;
+    margin: 2rem auto;
+    margin-bottom: 5rem;
+    border-radius: 50rem;
+}
+@media screen and (max-width: 60em) {
+
+    /* -------Temporarily------- */
+    .btn-navigate{
+        display: none;
+    }
+}
+
+@media screen and (max-width: 30em) {
+    
+    .overlay-banner-text{
+        display: none;
+    }
+}

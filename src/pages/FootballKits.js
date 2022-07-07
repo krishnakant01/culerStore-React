@@ -134,7 +134,7 @@ const FootballKits = () => {
             <div class="product-image badge-container">
               <img
                 src="https://culer-store.netlify.app/images/men-home-kit-full.png"
-                alt="product-image"
+                alt="product"
               />
               <span class="text-badge badge-primary">New</span>
               <button class="btn btn-wishlist">

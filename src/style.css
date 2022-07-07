@@ -3,10 +3,9 @@
 @import 'components/navigation/culerStoreNavigation.css';
 @import 'components/utilityClasses/utility.css';
 @import 'components/productList/productList.css';
+@import './components/authenticationPages/authenticationPages.css';
 
-/* @import 'components/cart/cart.css';
-
-@import 'components/authenticationPages/authenticationPages.css'; */
+/* @import 'components/cart/cart.css'; */
 
 * {
     box-sizing: border-box;

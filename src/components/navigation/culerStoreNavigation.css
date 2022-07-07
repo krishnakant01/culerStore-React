@@ -1,7 +1,9 @@
 .nav-container {
     box-shadow: 0 0 10px 4px rgb(0 0 0 / 7%);
 }
-
+.active li{
+    color: var(--color-barcelona-red);
+}
 .search-bar {
     display: flex;
     border: 1px solid var(--color-gray);
